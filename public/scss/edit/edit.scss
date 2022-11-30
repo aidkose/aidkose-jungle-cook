@@ -1,0 +1,209 @@
+.edit-page {
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-top: 93px;
+	// background-color: rgb(30, 30, 98);
+	#edit-recipes-header {
+		width: 76.5625%;
+		margin: 0 auto;
+		margin-top: 121px !important;
+		margin-bottom: 76px !important;
+		font-family: CavBold !important;
+		font-size: 25px !important;
+		// background-color: aquamarine;
+	}
+	.edit-forms {
+		width: 76.5625%;
+		margin: 0 auto;
+		min-height: 200px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		// background-color: bisque;
+		p {
+			font-family: LatoReg;
+			font-size: 20px;
+			margin-top: 127px;
+			margin-bottom: 33px;
+		}
+
+		input {
+			width: 100%;
+			margin-bottom: 84px;
+			height: 30px;
+			border: none;
+			border-bottom: 3px solid black !important;
+			font-family: LatoReg;
+			font-size: 20px;
+		}
+		input::placeholder {
+			color: black;
+		}
+		input:focus {
+			outline: none;
+		}
+		.form-one {
+			width: 100%;
+			position: relative;
+
+			label {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 110px;
+				height: 36px;
+				background-color: $dark-pink;
+				font-family: CavReg;
+				font-size: 17px;
+				border-radius: 30px;
+				position: absolute;
+				top: -14px;
+				right: 0;
+				cursor: pointer;
+				border: none !important;
+			}
+			label:hover {
+				background-color: #e29b9b;
+			}
+			label:active {
+				background-color: #d18b8b;
+			}
+			input[type='file'] {
+				display: none;
+			}
+			#attach {
+				display: none;
+			}
+		}
+		.form-two {
+			width: 100%;
+			position: relative;
+			.plus-two {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 39px;
+				height: 39px;
+				background-color: $dark-pink;
+				border-radius: 50%;
+				position: absolute;
+				bottom: 92px;
+				right: 0;
+				font-family: GillSansLight;
+				font-size: 20px;
+				color: white;
+				text-align: center;
+				cursor: pointer;
+			}
+			.plus-two:hover {
+				background-color: #e29b9b;
+			}
+			.plus-two:active {
+				background-color: #d18b8b;
+			}
+		}
+		.form-three {
+			width: 100%;
+			position: relative;
+			.plus-three {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 39px;
+				height: 39px;
+				background-color: $dark-pink;
+				border-radius: 50%;
+				position: absolute;
+				bottom: 92px;
+				right: 0;
+				font-family: GillSansLight;
+				font-size: 20px;
+				color: white;
+				text-align: center;
+				cursor: pointer;
+			}
+			.plus-three:hover {
+				background-color: #e29b9b;
+			}
+			.plus-three:active {
+				background-color: #d18b8b;
+			}
+		}
+	}
+	#editRecipeBtn {
+		width: 422px;
+		margin: 0 auto 109px auto;
+		height: 52px;
+		background-color: $dark-pink;
+		border-radius: 26px;
+		border: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: CavReg;
+		font-size: 25px;
+		cursor: pointer;
+		color: black;
+	}
+	#editRecipeBtn:hover {
+		background-color: #e29b9b;
+	}
+	#editRecipeBtn:active {
+		background-color: #d18b8b;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.create {
+		.create-forms {
+			.form-one {
+				label {
+					width: 92px;
+					height: 33px;
+					top: -9px;
+				}
+			}
+			input {
+				font-size: 16px;
+			}
+		}
+		#recipeBtn {
+			width: 354px;
+			height: 52px;
+		}
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.create {
+		margin-bottom: 90px;
+		.create-forms {
+			.form-one {
+				label {
+					width: 92px;
+					height: 33px;
+					font-size: 8px;
+				}
+			}
+			input {
+				font-size: 12px;
+			}
+		}
+		#recipeBtn {
+			width: 283px;
+			height: 52px;
+		}
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.create {
+		margin-bottom: 90px;
+		#recipeBtn {
+			width: 200px;
+			height: 52px;
+		}
+	}
+}

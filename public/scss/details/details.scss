@@ -1,0 +1,219 @@
+.details-page {
+  max-width: 960px;
+  min-height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: white;
+  h2 {
+    font-family: LatoReg;
+    font-weight: 300;
+  }
+  .details-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    .details-img {
+      width: 468px;
+      height: 421px;
+      position: relative;
+      .title {
+        font-family: LatoReg;
+        margin-top: 38px;
+        font-weight: 200;
+        position: absolute;
+        letter-spacing: 3px;
+        rotate: 270deg;
+        position: absolute;
+        left: -100px;
+        bottom: 52px;
+      }
+      img {
+        width: 468px;
+        height: 421px;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 45px;
+      }
+    }
+
+    .top-text {
+      max-width: 455px;
+      p {
+        font-family: CavReg;
+        font-size: 20px;
+        margin-bottom: 38px;
+      }
+      h3 {
+        font-family: LatoReg;
+        margin-top: 38px;
+        font-weight: 200;
+      }
+    }
+  }
+  .details-mid {
+    margin-top: 58px;
+    margin-bottom: 58px;
+    h3 {
+      font-family: LatoReg;
+      font-weight: 200;
+    }
+    p {
+      font-family: CavReg;
+      font-size: 20px;
+      margin-bottom: 38px;
+      margin-bottom: 5px;
+    }
+  }
+  .details-bottom {
+    margin-bottom: 98px;
+    h3 {
+      font-family: LatoReg;
+      font-weight: 200;
+    }
+    ol {
+      font-family: CavReg;
+      font-size: 20px;
+      margin-bottom: 38px;
+      margin-left: 15px;
+      margin-bottom: 60px;
+
+      li {
+        margin-bottom: 5px;
+      }
+    }
+    .btns-wrapper {
+      display: flex;
+      .editBtn {
+        width: 127px;
+        height: 42px;
+        background-color: $yellow;
+        font-family: CavReg;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 24px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        border: none;
+      }
+      .editBtn:hover {
+        background-color: #f1cd6b;
+      }
+      .editBtn:active {
+        background-color: #e4c163;
+      }
+      .backBtn {
+        width: 127px;
+        height: 42px;
+        background-color: $green;
+        font-family: CavReg;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 24px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        border: none;
+      }
+      .backBtn:hover {
+        background-color: #96d7ab;
+      }
+      .backBtn:active {
+        background-color: #81c195;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1055px) {
+  .details-page {
+    margin-left: 20px;
+    .details-top {
+      .details-img {
+        margin-left: 28px;
+      }
+      .top-text {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .details-page {
+    align-items: center;
+
+    .details-top {
+      //   align-items: center;
+      flex-direction: column;
+      .details-img {
+        max-width: 468px;
+        height: 421px;
+        img {
+          width: 100%;
+        }
+      }
+
+      .top-text {
+        margin-top: 58px;
+      }
+    }
+    .details-mid {
+      width: 100%;
+      margin-top: 0px;
+      padding-right: 20px;
+    }
+    .details-bottom {
+      padding-right: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .details-page {
+    margin-bottom: 95px;
+
+    .details-top {
+      .details-img {
+        width: 251px;
+        height: 226px;
+        margin-left: 73px;
+        img {
+          width: 251px;
+          height: 226px;
+          margin-right: 20px;
+        }
+      }
+      .top-text {
+        display: block;
+        width: 90%;
+        margin-right: 20px;
+      }
+    }
+    .details-mid {
+      max-width: 90%;
+    }
+    .details-bottom {
+      max-width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .details-page {
+    .details-top {
+      .details-img {
+        margin-left: 45px;
+      }
+    }
+  }
+}

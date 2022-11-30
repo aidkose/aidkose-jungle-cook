@@ -1,0 +1,35 @@
+<div class="edit-page">
+  <div id="edit-recipes-header">Hey Michael, edit your recipe!</div>
+  <div class="edit-forms">
+    <div class="form-one">
+      <input type="text" id="edit-recipe-img" placeholder="Add Recipe Image" />
+      
+        <input type="file" id="attach" accept="image/*"></input>
+      <label for="attach">Attach file</label>
+      
+      <input type="text" id="edit-recipe-name" placeholder="Recipe Name" />
+      <input type="text" id="edit-recipe-desc" placeholder="Recipe Description" />
+      <input type="text" id="edit-recipe-time" placeholder="Recipe Total Time" />
+      <input
+        type="text"
+        id="edit-recipe-serving"
+        placeholder="Recipe Serving Size"
+      />
+    </div>
+    <div class="form-two">
+      <p>Enter Ingredients:</p>
+      <input type="text" id="ingredient1" placeholder="Ingredient #1" />
+      <input type="text" id="ingredient2" placeholder="Ingredient #2" />
+      <input type="text" id="ingredient3" placeholder="Ingredient #3" />
+      <div class="plus-two" onclick="addIngredient()">+</div>
+    </div>
+    <div class="form-three">
+      <p>Enter Instructions:</p>
+      <input type="text" id="instruction1" placeholder="Instruction #1" />
+      <input type="text" id="instruction2" placeholder="Instruction #2" />
+      <input type="text" id="instruction3" placeholder="Instruction #3" />
+      <div class="plus-three" onclick="addInstruction()">+</div>
+    </div>
+  </div>
+  <div id="editRecipeBtn" onclick="editUserRecipes()">Submit Changes</div>
+</div>

@@ -1,0 +1,38 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "Jungle cook is a fully function CRUD application where you can (C)reate, (R)emove, (U)pdate, and (D)isplay recipes. On top of creating your own recipes, Jungle Cook also store them in a intuitive way and aesthetically pleasing way. To get started, ssers must first login. We store user's content in our firestore database, so that when you come back, your recipes are still there. Only after you login are you able to enter the kitchen and get started creating your own recipes. If you don't have any recipes yet, we offer our own that you can browse through for inspiration (and a good meal). We hope to see you in the kitched soon!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile:sass": "sass public/scss/styles.scss public/css/styles.css -w",
+    "firebase serve": "firebase serve --only hosting",
+    "firebase deploy": "firebase deploy --except functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "anymatch": "^3.1.2",
+    "binary-extensions": "^2.2.0",
+    "braces": "^3.0.2",
+    "chokidar": "^3.5.3",
+    "fill-range": "^7.0.1",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.1.0",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.3.1",
+    "readdirp": "^3.6.0",
+    "source-map-js": "^1.0.2",
+    "to-regex-range": "^5.0.1"
+  }
+}
