@@ -1,93 +1,94 @@
 .home {
-	width: 100%;
-	height: 100vh;
-	background-image: linear-gradient(
-			rgba(242, 92, 84, 0.6),
-			rgba(242, 92, 84, 0.6)
-		),
-		url(../images/hero.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(242, 92, 84, 0.6),
+      rgba(242, 92, 84, 0.6)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	.bubbles {
-		width: 442px;
-		height: 402px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		position: relative;
+  .bubbles {
+    width: 442px;
+    height: 402px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 
-		.big-bubble {
-			width: 357px;
-			height: 357px;
-			border-radius: 50%;
-			background-color: $yellow;
-			z-index: 99;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			position: absolute;
-			bottom: 0px;
-			left: 0px;
+    .big-bubble {
+      width: 357px;
+      height: 357px;
+      border-radius: 50%;
+      background-color: $yellow;
+      z-index: 99;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
 
-			h2 {
-				font-family: CavBold;
-				font-size: 24px;
-			}
+      h2 {
+        font-family: CavBold;
+        font-size: 24px;
+      }
 
-			p {
-				max-width: 162px;
-				font-family: LatoReg;
-				font-size: 13px;
-				text-align: center;
-			}
-		}
+      p {
+        max-width: 162px;
+        font-family: LatoReg;
+        font-size: 13px;
+        text-align: center;
+      }
+    }
 
-		.little-bubble {
-			width: 167px;
-			height: 167px;
-			border-radius: 50%;
-			background-color: $pink;
-			position: absolute;
-			top: 0px;
-			right: 0px;
-			z-index: 98;
-			display: flex;
-			justify-content: center;
-			align-items: center;
+    .little-bubble {
+      width: 167px;
+      height: 167px;
+      border-radius: 50%;
+      background-color: $pink;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 98;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-			p {
-				max-width: 114px;
-				font-size: 10px;
-				font-family: LatoIta;
-				text-align: center;
-			}
-		}
-	}
+      p {
+        max-width: 114px;
+        font-size: 10px;
+        font-family: LatoIta;
+        text-align: center;
+      }
+    }
+  }
 }
 
-@media only screen and (max-width: 432px) {
-	.home {
-		.bubbles {
-			width: 257px;
-			height: 327px;
-			.big-bubble {
-				width: 257px;
-				height: 257px;
-			}
-			.little-bubble {
-				width: 121px;
-				height: 121px;
-				p {
-					font-size: 8px;
-				}
-			}
-		}
-	}
+@media only screen and (max-width: 465px) {
+  .home {
+    margin-bottom: -80px;
+    .bubbles {
+      width: 257px;
+      height: 327px;
+      .big-bubble {
+        width: 257px;
+        height: 257px;
+      }
+      .little-bubble {
+        width: 121px;
+        height: 121px;
+        p {
+          font-size: 8px;
+        }
+      }
+    }
+  }
 }

@@ -1,149 +1,150 @@
 .login-page {
-	width: 100%;
-	height: 100vh;
-	background-color: $yellow;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $yellow;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	.login-page-wrapper {
-		width: 710px;
-		min-height: 450px;
-		// background-color: blue;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 20px;
-		.login {
-			width: 205px;
-			min-height: 293px;
-			display: flex;
-			flex-direction: column;
-			//   background-color: chartreuse;
+  .login-page-wrapper {
+    width: 710px;
+    min-height: 450px;
+    // background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .login {
+      width: 205px;
+      min-height: 293px;
+      display: flex;
+      flex-direction: column;
+      //   background-color: chartreuse;
 
-			h2 {
-				font-family: LatoReg;
-			}
+      h2 {
+        font-family: LatoReg;
+      }
 
-			input {
-				width: 100%;
-				height: 30px;
-				margin-bottom: 50px;
-				border: none;
-				border-bottom: 3px solid black !important;
-				background-color: $yellow;
-			}
+      input {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 50px;
+        border: none;
+        border-bottom: 3px solid black !important;
+        background-color: $yellow;
+      }
 
-			input:focus {
-				outline: none;
-				background-color: $yellow;
-			}
-			input::placeholder {
-				color: black;
-			}
+      input:focus {
+        outline: none;
+        background-color: $yellow;
+      }
+      input::placeholder {
+        color: black;
+      }
 
-			#submit {
-				width: 200px;
-				height: 45px;
-				margin-top: 12px;
-				outline: none;
-				background-color: #ffd972;
-				cursor: pointer;
-				border-radius: 30px;
-				border: none !important;
-				box-shadow: -1px 10px 47px -11px rgba(0, 0, 0, 0.75);
-				font-size: 20px;
-				font-size: 24px;
-				font-family: CavReg;
-			}
-			#submit:hover {
-				background-color: #f1cd6b;
-			}
-			#submit:active {
-				background-color: #e4c163;
-			}
-		}
+      #submit {
+        width: 200px;
+        height: 45px;
+        margin-top: 12px;
+        outline: none;
+        background-color: #ffd972;
+        cursor: pointer;
+        border-radius: 30px;
+        border: none !important;
+        box-shadow: -1px 10px 47px -11px rgba(0, 0, 0, 0.75);
+        font-size: 20px;
+        font-size: 24px;
+        font-family: CavReg;
+      }
+      #submit:hover {
+        background-color: #f1cd6b;
+      }
+      #submit:active {
+        background-color: #e4c163;
+      }
+    }
 
-		.create-account {
-			width: 250px;
-			min-height: 450px;
-			display: flex;
-			justify-content: center;
-			flex-direction: column;
-			//   background-color: brown;
-			p {
-				margin-bottom: 1px;
-				font-family: LatoIta;
-				font-size: 10px;
-			}
-			h2 {
-				font-family: LatoReg;
-			}
-			input {
-				width: 100%;
-				height: 30px;
-				margin-bottom: 50px;
-				border: none;
-				border-bottom: 3px solid black !important;
-				background-color: $yellow;
-			}
-			input::placeholder {
-				color: black;
-			}
-			input:focus {
-				outline: none;
-				background-color: $yellow;
-			}
-			#submit {
-				width: 250px;
-				height: 45px;
-				margin-top: 12px;
-				outline: none;
-				background-color: #ffd972;
-				cursor: pointer;
-				border-radius: 30px;
-				border: none !important;
-				box-shadow: -1px 10px 47px -11px rgba(0, 0, 0, 0.75);
-				font-size: 20px;
-				font-size: 24px;
-				font-family: CavReg;
-			}
-			#submit:hover {
-				background-color: #f1cd6b;
-			}
-			#submit:active {
-				background-color: #e4c163;
-			}
-		}
-	}
+    .create-account {
+      width: 250px;
+      min-height: 450px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      //   background-color: brown;
+      p {
+        margin-bottom: 1px;
+        font-family: LatoIta;
+        font-size: 10px;
+      }
+      h2 {
+        font-family: LatoReg;
+      }
+      input {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 50px;
+        border: none;
+        border-bottom: 3px solid black !important;
+        background-color: $yellow;
+      }
+      input::placeholder {
+        color: black;
+      }
+      input:focus {
+        outline: none;
+        background-color: $yellow;
+      }
+      #submit {
+        width: 250px;
+        height: 45px;
+        margin-top: 12px;
+        outline: none;
+        background-color: #ffd972;
+        cursor: pointer;
+        border-radius: 30px;
+        border: none !important;
+        box-shadow: -1px 10px 47px -11px rgba(0, 0, 0, 0.75);
+        font-size: 20px;
+        font-size: 24px;
+        font-family: CavReg;
+      }
+      #submit:hover {
+        background-color: #f1cd6b;
+      }
+      #submit:active {
+        background-color: #e4c163;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 550px) {
-	.login-page {
-		height: 100% !important;
-		.login-page-wrapper {
-			flex-direction: column;
-			max-width: 206px;
-			padding-top: 170px;
-			.login {
-				width: 250px;
+  .login-page {
+    height: 100% !important;
+    .login-page-wrapper {
+      flex-direction: column;
+      max-width: 206px;
+      padding-top: 170px;
+      .login {
+        width: 250px;
 
-				#submit {
-					width: 250px;
-					margin-bottom: 130px;
-				}
-			}
-			.create-account {
-				margin-bottom: 120px;
-			}
-		}
-	}
+        #submit {
+          width: 250px;
+          margin-bottom: 130px;
+        }
+      }
+      .create-account {
+        margin-bottom: 120px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 360px) {
-	.login-page {
-		.login-page-wrapper {
-		}
-	}
+  .login-page {
+    margin-bottom: -80px;
+    .login-page-wrapper {
+    }
+  }
 }

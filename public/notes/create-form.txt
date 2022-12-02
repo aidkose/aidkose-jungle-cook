@@ -1,0 +1,68 @@
+// function createUserRecipe() {
+// 	let userImg = $('#attach').val();
+// 	let userRecipeName = $('#create-recipe-name').val();
+// 	let userDesc = $('#create-recipe-desc').val();
+// 	let userTime = $('#create-recipe-time').val();
+// 	let userServing = $('#create-recipe-serving').val();
+// 	let userIngredientOne = $('#userIngredient1').val();
+// 	let userIngredientTwo = $('#userIngredient2').val();
+// 	let userIngredientThree = $('#userIngredient3').val();
+// 	// let userIngredientFour = $("#userIngredient4").val();
+// 	// let userIngredientFive = $("#userIngredient5").val();
+// 	// let userIngredientSix = $("#userIngredient6").val();
+// 	// let userIngredientSeven = $("#userIngredient7").val();
+// 	// let userIngredientEight = $("#userIngredient8").val();
+// 	let userInstructionOne = $('#userInstruction1').val();
+// 	let userInstructionTwo = $('#userInstruction2').val();
+// 	let userInstructionThree = $('#userInstruction3').val();
+// 	// let userInstructionFour = $("#userInstruction4").val();
+// 	// let userInstructionFive = $("#userInstruction5").val();
+
+// 	let userRecipeObj = {
+// 		recipeImage: userImg,
+// 		recipeName: userRecipeName,
+// 		recipeDescription: userDesc,
+// 		recipeTime: userTime,
+// 		recipeServing: userServing,
+// 		ingredientOne: userIngredientOne,
+// 		ingredientTwo: userIngredientTwo,
+// 		ingredientThree: userIngredientThree,
+// 		// ingredientFour: "",
+// 		// ingredientFive: "",
+// 		// ingredientSix: "",
+// 		// ingredientSeven: "",
+// 		// ingredientEight: "",
+// 		instructionOne: userInstructionOne,
+// 		instructionTwo: userInstructionTwo,
+// 		instructionThree: userInstructionThree,
+// 		// instructionFour: "",
+// 		// instructionFive: "",
+// 	};
+
+// 	console.log(userRecipeObj);
+// 	_userProfileInfo.recipes.push(userRecipeObj);
+// 	updateUser(_userProfileInfo);
+// 	userRecipes();
+
+// 	$('#create-recipe-img').val('');
+// 	$('#create-recipe-name').val('');
+// 	$('#create-recipe-desc').val('');
+// 	$('#create-recipe-time').val('');
+// 	$('#create-recipe-serving').val('');
+// 	$('#userIngredient1').val('');
+// 	$('#userIngredient2').val('');
+// 	$('#userIngredient3').val('');
+// 	$('#userInstruction1').val('');
+// 	$('#userInstruction2').val('');
+// 	$('#userInstruction3').val('');
+// }
+
+// function closeUserWindow() {}
+
+// function getUserRecipes() {
+// 	// * get recipes from firebase then loop through that info and put it back on the page
+// }
+
+// function getUserRecipeDetails() {}
+
+// function deleteUserRecipes() {}
